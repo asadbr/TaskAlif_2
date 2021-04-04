@@ -1,28 +1,25 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomePage from "@/views/pages/Home/HomePage";
+import HomePage from "@/views/pages/home/HomePage";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "HomePage",
+    name: "home",
     component: HomePage,
   },
   {
-    path: "/employeesindexpage",
-    name: "EmployeesIndexPage",
-    component: () => import("../views/pages/Employees/EmployeesIndexPage"),
+    path: "/employees",
+    name: "employees",
+    component: () => import("../views/pages/employees/EmployeesIndexPage"),
   },
   {
-    path: "/employeesshowpage",
-    name: "EmployeesShowPage",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import("../views/pages/Employees/EmployeesShowPage"),
+    path: "/employees/:id",
+    name: "employees.show",
+    component: () => import("../views/pages/employees/EmployShowPage"),
+    props: true,
   },
 ];
 
