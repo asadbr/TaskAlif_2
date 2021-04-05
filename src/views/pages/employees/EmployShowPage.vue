@@ -50,7 +50,11 @@
             <span class="text-muted">Имя и фамилия</span>
             <br />
             <div class="d-flex" v-if="save">
-              <input type="text" v-model="query.name" class="form-control" />
+              <input
+                type="text"
+                v-model="query.name"
+                class="form-control mr-2"
+              />
               <input type="text" v-model="query.surname" class="form-control" />
             </div>
             <span v-else>{{ employ.name }} {{ employ.surname }}</span>
@@ -58,7 +62,12 @@
           <div>
             <span class="text-muted">Отдел</span>
             <br />
-            <select name="name" v-if="save" v-model="query.department">
+            <select
+              name="name"
+              class="form-control"
+              v-if="save"
+              v-model="query.department"
+            >
               <option value="audit">Audit</option>
               <option value="marketing">Marketing</option>
               <option value="IT">IT</option>
@@ -108,7 +117,7 @@
             <br />
             <input
               v-if="save"
-              type="text"
+              type="date"
               v-model="query.birthdate"
               class="form-control"
             />
