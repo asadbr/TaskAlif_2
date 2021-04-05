@@ -7,4 +7,10 @@ export const employeesService = {
   getEmploy(id) {
     return apiService.get(`employees/${id}`);
   },
+  updateEmploy(id) {
+    return apiService.put(`employees/${id}`);
+  },
+  deleteEmploy(id) {
+    return apiService.delete(`employees/${id}`);
+  },
 };
