@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Zulayxo",
       "surname": "Sonieva",
-      "department": "audit",
+      "department": "Audit",
       "position": "teacher",
       "gender": "female",
       "birthdate": "22.09.1989"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Shaxzod",
       "surname": "Djabbarov",
-      "department": "marketing",
+      "department": "Marketing",
       "position": "teacher",
       "gender": "male",
       "birthdate": "22.09.1989"
