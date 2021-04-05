@@ -45,8 +45,8 @@ export default {
       employees: [],
       loading: false,
       sex: [
-        { id: "male", gender: "Male" },
-        { id: "female", gender: "Female" },
+        { id: "male", gender: "Мужской" },
+        { id: "female", gender: "Женский" },
       ],
       inputSearch: "",
       selectGender: 0,

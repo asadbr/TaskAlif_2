@@ -68,8 +68,8 @@
               v-if="save"
               v-model="query.department"
             >
-              <option value="audit">Audit</option>
-              <option value="marketing">Marketing</option>
+              <option value="Audit">Audit</option>
+              <option value="Marketing">Marketing</option>
               <option value="IT">IT</option>
             </select>
 

@@ -1,7 +1,7 @@
 {
   "employees": [
     {
-      "id": 8,
+      "id": 1,
       "name": "Zulayxo",
       "surname": "Sonieva",
       "department": "audit",
@@ -10,7 +10,7 @@
       "birthdate": "22.09.1989"
     },
     {
-      "id": 9,
+      "id": 2,
       "name": "Maryam",
       "surname": "Osimi",
       "department": "IT",
@@ -19,7 +19,7 @@
       "birthdate": "21.11.1992"
     },
     {
-      "id": 11,
+      "id": 3,
       "name": "Jovid",
       "surname": "Maxmudov",
       "department": "IT",
@@ -28,13 +28,85 @@
       "birthdate": "21.11.1992"
     },
     {
-      "id": 12,
+      "id": 4,
       "name": "Shaxzod",
       "surname": "Djabbarov",
       "department": "marketing",
       "position": "teacher",
       "gender": "male",
       "birthdate": "22.09.1989"
+    },
+    {
+      "id": 5,
+      "name": "Мадина",
+      "surname": "Саидова",
+      "department": "Marketing",
+      "position": "Программист",
+      "gender": "female",
+      "birthdate": "22.09.1989"
+    },
+    {
+      "id": 6,
+      "name": "Нилуфар",
+      "surname": "Шерова",
+      "department": "IT",
+      "position": "Учительница",
+      "gender": "female",
+      "birthdate": "21.11.1992"
+    },
+    {
+      "id": 7,
+      "name": "Фаридун",
+      "surname": "Боронов",
+      "department": "IT",
+      "position": "Программист",
+      "gender": "male",
+      "birthdate": "21.11.1992"
+    },
+    {
+      "id": 8,
+      "name": "Асридин",
+      "surname": "Фахриев",
+      "department": "Audit",
+      "position": "Бухгалтер",
+      "gender": "male",
+      "birthdate": "22.09.1989"
+    },
+    {
+      "id": 9,
+      "name": "Анахита",
+      "surname": "Сатторова",
+      "department": "Marketing",
+      "position": "Рассом",
+      "gender": "female",
+      "birthdate": "22.09.1989"
+    },
+    {
+      "id": 10,
+      "name": "Ифтихори",
+      "surname": "Хайдар",
+      "department": "IT",
+      "position": "Системчик",
+      "gender": "male",
+      "birthdate": "21.11.1992"
+    },
+    {
+      "id": 11,
+      "name": "Асад",
+      "surname": "Баротов",
+      "department": "IT",
+      "position": "Фронтенд Разработчик",
+      "gender": "male",
+      "birthdate": "2000-08-28"
+    },
+    {
+      "id": 12,
+      "name": "Ромеш",
+      "surname": "Фарходзода",
+      "department": "IT",
+      "position": "SEO",
+      "gender": "male",
+      "birthdate": "2002-12-22"
     }
   ]
 }
