@@ -18,7 +18,7 @@
             class="my-4 col-12 col-md-3"
           >
             <router-link
-              :to="{ name: 'employees.show', params: { id: item.id } }"
+              :to="{ name: 'employees.show', params: { id: +item.id } }"
             >
               <div class="card text-dark">
                 <div class="card-body">

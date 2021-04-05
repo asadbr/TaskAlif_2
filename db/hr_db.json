@@ -1,66 +1,12 @@
 {
   "employees": [
     {
-      "id": 2,
-      "name": "Mumin",
-      "surname": "Bagadirov",
-      "department": "marketing",
-      "position": "teacher",
-      "gender": "male",
-      "birthdate": "22.09.1989"
-    },
-    {
-      "id": 3,
-      "name": "Faridun",
-      "surname": "Boronov",
-      "department": "IT",
-      "position": "manager",
-      "gender": "female",
-      "birthdate": "21.11.1992"
-    },
-    {
-      "id": 4,
-      "name": "Romesh",
-      "surname": "Farxodzoda",
-      "department": "marketing",
-      "position": "teacher",
-      "gender": "male",
-      "birthdate": "22.09.1989"
-    },
-    {
-      "id": 5,
-      "name": "Asridin",
-      "surname": "Faxriev",
-      "department": "IT",
-      "position": "manager",
-      "gender": "female",
-      "birthdate": "21.11.1992"
-    },
-    {
-      "id": 6,
-      "name": "Aliwer",
-      "surname": "Bustonov",
-      "department": "marketing",
-      "position": "teacher",
-      "gender": "male",
-      "birthdate": "22.09.1989"
-    },
-    {
-      "id": 7,
-      "name": "Nilufar",
-      "surname": "Sherova",
-      "department": "IT",
-      "position": "manager",
-      "gender": "female",
-      "birthdate": "21.11.1992"
-    },
-    {
       "id": 8,
       "name": "Zulayxo",
       "surname": "Sonieva",
-      "department": "marketing",
+      "department": "audit",
       "position": "teacher",
-      "gender": "male",
+      "gender": "female",
       "birthdate": "22.09.1989"
     },
     {
@@ -73,21 +19,12 @@
       "birthdate": "21.11.1992"
     },
     {
-      "id": 10,
-      "name": "Anaxita",
-      "surname": "Sattorova",
-      "department": "marketing",
-      "position": "teacher",
-      "gender": "male",
-      "birthdate": "22.09.1989"
-    },
-    {
       "id": 11,
       "name": "Jovid",
       "surname": "Maxmudov",
       "department": "IT",
       "position": "manager",
-      "gender": "female",
+      "gender": "male",
       "birthdate": "21.11.1992"
     },
     {
