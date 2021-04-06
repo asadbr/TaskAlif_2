@@ -5,38 +5,37 @@
         <div class="card-body">
           <div class="card-title"></div>
           <div class="form-group">
-            <span class="text-muted">Количество Содрудников</span>
+            <span class="text-muted"
+              ><b>Количество Содрудников:</b> {{ employees.length }}</span
+            >
             <br />
-            <div class="d-flex">{{ employees.length }}</div>
-            <span class="text-muted">Количество Мужчин</span>
+            <span class="text-muted"
+              ><b>Количество Мужчин:</b> {{ countMans() }}</span
+            >
             <br />
-            <div class="form-group">
-              {{ countMans() }}
-            </div>
-            <span class="text-muted">Количество Женшин</span>
+            <span class="text-muted"
+              ><b>Количество Женшин:</b> {{ countWomans() }}</span
+            >
             <br />
-            <div class="form-group">
-              {{ countWomans() }}
-            </div>
-            <span class="text-muted">Количество Сотрудников в отдел Айти </span>
-            <br />
-            <div class="form-group">
+            <span class="text-muted"
+              ><b>Количество Сотрудников в отдел Айти:</b>
               {{ countITDepartment() }}
-            </div>
-            <span class="text-muted"
-              >Количество Сотрудников в отдел Бухгалтерия
             </span>
             <br />
-            <div class="form-group">
+            <span class="text-muted">
+              <b>Количество Сотрудников в отдел Бухгалтерия:</b>
               {{ countAuditDepartment() }}
-            </div>
-            <span class="text-muted"
-              >Количество Сотрудников в отдел Маркетинг
             </span>
             <br />
-            <div class="form-group">
+            <span class="text-muted"
+              ><b>Количество Сотрудников в отдел Маркетинг:</b>
               {{ countMarketingDepartment() }}
-            </div>
+            </span>
+            <br />
+            <span class="text-muted"
+              ><b>Средний Возраст Сотрудников:</b>
+              {{ countMidOld() }}
+            </span>
           </div>
         </div>
       </div>
@@ -106,7 +105,20 @@ export default {
           k++;
         }
       }
+
       return k;
+    },
+    countMidOld() {
+      var sum = 0;
+      for (let item of this.employees) {
+        var Date1 = new Date(item.birthdate);
+        var Date2 = new Date();
+        var Days = Math.floor(
+          Math.abs((Date2.getTime() - Date1.getTime()) / (1000 * 3600 * 24))
+        );
+        sum = sum + Days;
+      }
+      return Math.floor(sum / 360 / this.employees.length);
     },
   },
 };

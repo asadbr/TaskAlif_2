@@ -7,7 +7,7 @@
       "department": "Audit",
       "position": "teacher",
       "gender": "female",
-      "birthdate": "22.09.1989"
+      "birthdate": "2012-01-06"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "department": "IT",
       "position": "manager",
       "gender": "female",
-      "birthdate": "21.11.1992"
+      "birthdate": "2018-06-14"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "department": "IT",
       "position": "manager",
       "gender": "male",
-      "birthdate": "21.11.1992"
+      "birthdate": "2006-02-23"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "department": "Marketing",
       "position": "teacher",
       "gender": "male",
-      "birthdate": "22.09.1989"
+      "birthdate": "2004-01-28"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "department": "Marketing",
       "position": "Программист",
       "gender": "female",
-      "birthdate": "22.09.1989"
+      "birthdate": "1994-11-18"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "department": "IT",
       "position": "Учительница",
       "gender": "female",
-      "birthdate": "21.11.1992"
+      "birthdate": "2021-04-25"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "department": "IT",
       "position": "Программист",
       "gender": "male",
-      "birthdate": "21.11.1992"
+      "birthdate": "2001-01-31"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "department": "Audit",
       "position": "Бухгалтер",
       "gender": "male",
-      "birthdate": "22.09.1989"
+      "birthdate": "1999-06-27"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "department": "Marketing",
       "position": "Рассом",
       "gender": "female",
-      "birthdate": "22.09.1989"
+      "birthdate": "1999-10-22"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "department": "IT",
       "position": "Системчик",
       "gender": "male",
-      "birthdate": "21.11.1992"
+      "birthdate": "1997-11-30"
     },
     {
       "id": 11,
