@@ -1,41 +1,85 @@
 <template>
-  <div>
-    <div class="container mt-4">
+  <div class="row">
+    <div class="col-12 col-lg-4 mt-4">
       <div class="card">
         <div class="card-body">
-          <div class="card-title"></div>
-          <div class="form-group">
-            <span class="text-muted"
-              ><b>Количество Содрудников:</b> {{ employees.length }}</span
-            >
-            <br />
-            <span class="text-muted"
-              ><b>Количество Мужчин:</b> {{ countMans() }}</span
-            >
-            <br />
-            <span class="text-muted"
-              ><b>Количество Женшин:</b> {{ countWomans() }}</span
-            >
-            <br />
-            <span class="text-muted"
-              ><b>Количество Сотрудников в отдел Айти:</b>
-              {{ countITDepartment() }}
-            </span>
-            <br />
-            <span class="text-muted">
-              <b>Количество Сотрудников в отдел Бухгалтерия:</b>
-              {{ countAuditDepartment() }}
-            </span>
-            <br />
-            <span class="text-muted"
-              ><b>Количество Сотрудников в отдел Маркетинг:</b>
-              {{ countMarketingDepartment() }}
-            </span>
-            <br />
-            <span class="text-muted"
-              ><b>Средний Возраст Сотрудников:</b>
-              {{ countMidOld() }}
-            </span>
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Количество Содрудников</h6>
+              <span class="h4 mb-0"> {{ employees.length }} </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mt-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Количество Мужчин</h6>
+              <span class="h4 mb-0"> {{ countMans() }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mt-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Количество Женщин</h6>
+              <span class="h4 mb-0"> {{ countWomans() }} </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Отдел Айти</h6>
+              <span class="h4 mb-0"> {{ countITDepartment() }} </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Отдел Бухгалтерия</h6>
+              <span class="h4 mb-0"> {{ countAuditDepartment() }} </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Отдел Маркетинг</h6>
+              <span class="h4 mb-0"> {{ countMarketingDepartment() }} </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col">
+              <h6 class="text-muted mb-2">Средний Возраст Сотрудников</h6>
+              <span class="h4 mb-0"> {{ countMidOld() }} </span>
+            </div>
           </div>
         </div>
       </div>
